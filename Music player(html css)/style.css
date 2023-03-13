@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav{
+    background-color: rgb(30, 140, 231);
+    height: 100px;
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left-nav{
+    display: flex;
+}
+
+.left-nav img{
+    height: 60px;
+    padding-left: 5rem;
+    padding-top: 3%;
+
+}
+.logo-name{
+    line-height: 0px;
+}
+
+main{
+    display: flex;
+    width: auto;
+    height: 350px;
+    padding: 0px 50px;
+}
+
+.main-left{
+    display: flex;
+    background-color: rgb(231, 12, 12);
+    flex: 0.7;
+}
+.card-left img{
+    height: 350px;
+    width: 300px;
+
+}
+
+.card-right{
+    /* display: flex; */
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
+.play-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-right{
+    background-color: aqua;
+    flex: 0.3;
+    padding: 0px 20px;
+}
+
+.main-right-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
